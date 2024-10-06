@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sudoku Game</h1>
+    
+    <div class="menu">
+        <button onclick="startGame('easy')">Easy</button>
+        <button onclick="startGame('medium')">Medium</button>
+        <button onclick="startGame('hard')">Hard</button>
+    </div>
+
+    <div id="sudoku-board"></div>
+    <div id="buttons">
+        <button onclick="checkSolution()">Check Solution</button>
+        <button onclick="resetBoard()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
